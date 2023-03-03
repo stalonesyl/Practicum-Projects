@@ -444,7 +444,8 @@
 }
 
 .footer__logo {
-  width: 153px;
+  width: 116px;
+  height: 21px;
   color: white;
 }
 
@@ -488,7 +489,7 @@
   margin-right: 10px;
 }
 
-.footer__copyrights {
+.footer__copyright {
   margin: 108px 0 0;
   color: white;
   font-size: 16px;
