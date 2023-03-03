@@ -48,7 +48,7 @@
           class="header__image"
         />
         <div class="header__footer">
-          <a class="header__link">About the library &darr;</a>
+          <a class="header__link" href="#about">About the library &darr;</a>
           <p class="header__address">
             200 Success Avenue, The Town of Practicum
           </p>
@@ -85,7 +85,7 @@
               prove that this hasn't been the case since at least the 18th
               century.
             </p>
-            <a href="#" class="events__more">More events &rarr;</a>
+            <a href="#events-more" class="events__more">More events &rarr;</a>
           </div>
           <div class="events__cover">
             <img
@@ -136,13 +136,10 @@
           </div>
         </section>
 
-        <section class="staff">
-          <!-- --------------------------------------------------------------- -->
-          <!--        Don't uncomment until the final project stage            -->
-          <!-- --------------------------------------------------------------- -->
-          <!--<h2 class="staff__title">Staff picks</h2>
+        <section class="staff" >
+          <h2 class="staff__title">Staff picks</h2>
         <p class="staff__subtitle">That our readers love</p>
-        <ul>
+        <ul class="staff__cards">
           <li class="card">
             <div class="card__content">
               <h3 class="card__title">Introduction to Algorithms</h3>
@@ -208,14 +205,11 @@
               <p class="card__footer">Steve McConnell</p>
             </div>
           </li>
-        </ul>-->
+        </ul>
         </section>
 
         <section class="membership">
-          <!-- --------------------------------------------------------------- -->
-          <!--         Don't uncomment until the final project stage           -->
-          <!-- --------------------------------------------------------------- -->
-          <!--<h2 class="membership__title">Becoming a library member is easy!</h2>
+          <h2 class="membership__title">Becoming a library member is easy!</h2>
         <ul class="membership__steps">
           <li class="step">
             <h3 class="step__title">
@@ -267,14 +261,11 @@
               Enjoy all the awesome benefits of membership!
             </p>
           </li>
-        </ul>-->
+        </ul>
         </section>
 
         <section class="about">
-          <!-- --------------------------------------------------------------- -->
-          <!--          Don't uncomment until the final project stage          -->
-          <!-- --------------------------------------------------------------- -->
-          <!--<h2 class="about__title">About the library</h2>
+          -<h2 class="about__title">About the library</h2>
         <div class="about__content">
           <p class="about__paragraph">
             Libraries are essential establishments in practically every city,
@@ -294,13 +285,56 @@
             the American Geophysical Union.
           </p>
         </div>
-        <div class="about__circle"></div> -->
+        <div class="about__circle"></div>
         </section>
       </main>
       <footer class="footer">
-        <!-- ----------------------------------------------------------------- -->
-        <!--          Don't uncomment until the final project stage            -->
-        <!-- ----------------------------------------------------------------- -->
+
+        <div class="footer__columns">
+          <div class="footer__column">
+            <img
+              class="footer__logo"
+              src="images/logo_white.png"
+              alt="Practicum Logo"
+            />
+          </div>
+          <div class="footer__column footer__column_content_hours">
+            <h2 class="footer__column-heading">Hours</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">Weekdays: 9am - 8pm</li>
+
+              <li class="footer__list-item">Weekends: 10am - 6pm</li>
+            </ul>
+          </div>
+          <div class="footer__column footer__column_content_social">
+            <h2 class="footer__column-heading">Social Media</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#footer" class="footer__column-link">
+                  <img
+                    class="footer__social-icon"
+                    src="./images/facebook_white.svg"
+                    alt="Facebook Logo White"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#footer" class="footer__column-link">
+                  <img
+                    class="footer__social-icon"
+                    src="./images/instagram_white.svg"
+                    alt="Instagram Logo White"
+                  />
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="footer__copyright">&copy; 2023 Stalone Sylvestre</p>
+
       </footer>
     </div>
   </body>
