@@ -50,7 +50,7 @@
 .header__title {
   font-size: 66px;
   line-height: 76px;
-  font-weight: 500;
+  font-weight: 500px;
   margin-top: 150px;
   max-width: 544px;
 }
@@ -64,12 +64,9 @@
 
 .header__image {
   z-index: 1;
-}
-
-.header__image_block {
-  max-width: 636px;
   position: absolute;
-  top: 136px;
+  max-width: 636px;
+  top: 135px;
   right: 20px;
 }
 
