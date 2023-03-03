@@ -63,7 +63,10 @@
 }
 
 .header__image {
-  z-index: 1;
+  z-index: -1;
+}
+
+.header__image_block {
   max-width: 636px;
   position: absolute;
   top: 136px;
